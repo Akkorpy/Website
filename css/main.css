@@ -1,5 +1,167 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #e0e0e0;
+}
+
+h1 {
+	font-size: 64px;
+	font-family: 'Arial', sans-serif;
+	color: #f8fafc;
+}
+
+h2 {
+	font-size: 36px;
+	font-weight: 600;
+	font-family: 'Arial', sans-serif;
+}
+
+.icon img {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	display: inline-block;
+}
+
 .icon {
-	background-color: rgb(224, 204, 184);
-	height: 100px;
-	width: 100px;
+	width: 90%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 30px;
+}
+
+header {
+	max-width: 100%;
+	margin: 40px auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #727272;
+}
+
+main {
+	max-width: 90%;
+	margin: 50px auto;
+}
+
+main .heading {
+	text-align: center;
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+p {
+	font-size: 20px;
+	font-family: 'Arial', sans-serif;
+	width: 80%;
+	text-align: left;
+	color: #334155;
+}
+
+main section {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 40px;
+	gap: 180px;
+}
+
+.about div {
+	width: 370px;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 20px;
+	background-color: #f8fafc;
+	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.230);
+}
+
+.about div p {
+	margin-top: 0;
+	line-height: 1.4;
+	font-size: 18px;
+}
+
+footer {
+	width: 100%;
+	height: 300px;
+	background-color: #727272;
+	margin-top: 200px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+footer div {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+footer img {
+	width: 130px;
+	height: 130px;
+	margin-right: 20px;
+}
+
+a {
+	text-decoration: none;
+	font-family: 'Arial', sans-serif;
+	display: inline-block;
+	transition: color 0.5s;
+}
+
+footer a {
+	font-size: 28px;
+	margin: 16px;
+	color: #f8fafc;
+}
+
+footer a:hover {
+	color: #cbd5e1;
+}
+
+.project-section a {
+	font-size: 18px;
+	color: #334155;
+}
+
+.project-section a:hover {
+	color: #f8fafc;
+}
+
+.project-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.divider {
+	width: 80%;
+	max-width: 1000px;
+	height: 1px;
+	background-color: #334155;
+	margin: 100px auto 40px auto;
+	border: none;
+}
+
+.project-section .heading {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 15px;
+	margin-top: 0;
+}
+
+.about div h2 a {
+	color: #0f172a;
+	text-decoration: none;
+	transition: color 0.3s ease;
+}
+
+.about div h2 a:hover {
+	color: #4e5e6e;
 }
