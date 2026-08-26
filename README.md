@@ -1,16 +1,10 @@
 # Akkorpy - Portfolio Website
 
-I am a  15-year-old high school student, aspiring web developer, and cybersecurity enthusiast. I build projects that combine web technologies, bot development, and software systems. My goal is to master full-stack development and network security to protect digital assets.
+Hello, this is my first personal website. It's designed to be simple, so there is not a lot of features, but, I am very proud of myself. And of course the website will be improved over time. I will change its visual design and add some features to navigate.
 
-### Core Projects
+### My core projects
 
-* **NovaBot**: A lighthearted Slack bot built to boost team morale with cat facts, jokes, and latency checks.
-* **AxionOS**: An experimental WebOS project focused on creating a desktop interface inside the browser. (In development)
-* **Portfolio Website**: A clean, responsive portfolio showcasing my background, goals, and technical projects.
+* **NovaBot**: A Slack bot designed to deliver random cat facts, check latensy, and provide quick command help inside your workspace to keep it lively.
+* **AxionOS**: An experimental WebOS project aimed on creating a desktop interface inside the browser. (In development)
+* **Portfolio Website**: My personal portfolio website, built to showcase my background, current goals, interests, and all projects.
 
----
-
-### Technical Skills & Tools
-
-* **Programming & Web**: HTML5, CSS3, JavaScript
-* **Tools & Platforms**: Git, GitHub, VS Code, Slack API
